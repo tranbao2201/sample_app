@@ -34,9 +34,6 @@ en:
     third: This link will expire in two hours.
     end: If you did not request your password to be reset, please ignore this email and
          your password will stay as it is.
-  users:
-    create:
-      notice:
   account: Account
   english: En
   vietnam: Vi
@@ -49,7 +46,7 @@ en:
   reset_pass: Email sent with password reset instructions
   reset_success: Password has been reset.
   mail_error: Sorry , We can't sent email now !!! Try later .
-  user:
+  users:
     my_profile: view my profile
     all_user: All User
   micropost:
@@ -97,6 +94,7 @@ en:
   micropost_post: Posted %{time} ago.
   micropost_count: Microposts %{count}
   create_micropost: Compose new micropost...
+  microposts: "Microposts :"
   micropost_feed: Micropost Feed
   micropost_delete: Micropost deleted
   mircopost_delete_failed: Micropost deleted failed
@@ -110,3 +108,7 @@ en:
     content : The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
               by <a href="https://www.michaelhartl.com/">Michael Hartl</a>
   language: Language
+  following: following
+  followers: followers
+  follow: Follow
+  unfollow: Unfollow

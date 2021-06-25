@@ -54,6 +54,20 @@ class UsersController < ApplicationController
     redirect_to users_url
   end
 
+  def following
+    @title = t "following"
+    @user = User.find(params[:id])
+    @users = Kaminari.paginate_array(@user.following).page(params[:page])
+    render "show_follow"
+  end
+
+  def followers
+    @title = t "followers"
+    @user = User.find(params[:id])
+    @users = Kaminari.paginate_array(@user.followers).page(params[:page])
+    render "show_follow"
+  end
+
   private
 
   def load_user
