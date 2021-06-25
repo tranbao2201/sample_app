@@ -12,6 +12,8 @@ module SampleApp
     config.load_defaults 6.1
     Bundler.require(*Rails.groups)
     Config::Integrations::Rails::Railtie.preload
+    # Force all access to the app over SSL, use Strict-Transport-Security,
+    # and use secure cookies.
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
