@@ -31,10 +31,11 @@
 
 en:
   welcome:
-    home: Sample App
+    home: Welcome to the Sample App
     help: Help
     about: About
-    help: Help
+    signup: Sign up
+    contact: Contact
   content_page:
     home: This is the home page for the <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
             sample application.
@@ -50,9 +51,15 @@ en:
           <a href = "https://www.railstutorial.org/book" ><em>Ruby on Rails Tutorial</em> book</a >
     contact: Contact the Ruby on Rails Tutorial about the sample app at the
              <a href="https://www.railstutorial.org/contact">contact page</a>.
-
+    signup: This will be a signup page for new users.
   base_title: Ruby on Rails Tutorial Sample App
   home: Home
   help: Help
   about: About
   contact: Contact
+  new: News
+  loggin : Log in
+  signup_now: Sign up now!
+  footer:
+    content : The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+              by <a href="https://www.michaelhartl.com/">Michael Hartl</a>
