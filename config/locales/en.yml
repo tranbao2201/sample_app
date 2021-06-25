@@ -50,7 +50,8 @@ en:
           <a href = "https://www.railstutorial.org/book" ><em>Ruby on Rails Tutorial</em> book</a >
     contact: Contact the Ruby on Rails Tutorial about the sample app at the
              <a href="https://www.railstutorial.org/contact">contact page</a>.
-  title: " | Ruby on Rails Tutorial Sample App"
+
+  base_title: Ruby on Rails Tutorial Sample App
   home: Home
   help: Help
   about: About
