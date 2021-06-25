@@ -4,9 +4,11 @@ class SessionsController < ApplicationController
 
   def create
     if @user&.authenticate params[:session][:password]
-      log_in @user
-      params[:session][:remember_me] == "1" ? remember(@user) : forget(@user)
-      redirect_back_or root_url
+      return handle_login_success @user if @user.activated?
+
+      message = t "message"
+      flash[:warning] = message
+      redirect_to root_url
     else
       flash.now[:danger] = t "login_error"
       render :new
@@ -22,5 +24,11 @@ class SessionsController < ApplicationController
 
   def find_user
     @user = User.find_by(email: params[:session][:email].downcase)
+  end
+
+  def handle_login_success user
+    log_in user
+    params[:session][:remember_me] == "1" ? remember(user) : forget(user)
+    redirect_back_or root_url
   end
 end
