@@ -15,6 +15,8 @@ class UsersController < ApplicationController
 
   def show
     redirect_to root_url unless @user.activated?
+    @microposts = Kaminari.paginate_array(@user.microposts)
+                          .page(params[:page]).per(Settings.micropost.per_page)
   end
 
   def create
@@ -23,7 +25,7 @@ class UsersController < ApplicationController
       if @user.send_activation_email
         flash[:info] = t "active_account"
       else
-        flash[:danger] = t "mail.error"
+        flash[:danger] = t "mail_error"
       end
       redirect_to root_url
     else
@@ -45,9 +47,9 @@ class UsersController < ApplicationController
 
   def destroy
     if @user.destroy
-      flash.now[:success] = t "delete_success"
+      flash[:success] = t "delete_success"
     else
-      flash.now[:danger] = t "delete_failed"
+      flash[:danger] = t "delete_failed"
     end
     redirect_to users_url
   end
@@ -65,14 +67,6 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit(:name, :email, :password,
                                  :password_confirmation)
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t "please_login"
-    redirect_to login_url
   end
 
   def admin_user

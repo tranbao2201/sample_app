@@ -96,6 +96,18 @@ vi:
   cofirm_pass: Xác nhận mật khẩu
   not_found_user: Người dùng không tồn tại!!!
   login_error: Sai mật khẩu hoặc tài khoản
+  micropost_post: "Đăng %{time} giờ trước."
+  micropost_count: "%{count} Bài viết "
+  create_micropost: Soạn bài viết mới...
+  micropost_feed: Micropost Feed
+  miropost_delete: Baì viết đã xóa
+  mircopost_delete_failed: Không thể xóa bài viết
+  micropost_not_exit: Bài viết không tồn tại
+  image_format: Phải đúng định dạng ảnh
+  maximum_size: Ảnh nên bé hơn 5 MB
+  micropost_create: Bài viết đã tạo
+  create_micropost_failed: Không thể tạo bài viết lúc này
+  post: Đăng
   footer:
     content: Trang <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
               bởi <a href="https://www.michaelhartl.com/">Michael Hartl</a>

@@ -48,6 +48,17 @@ en:
   update_pass: Update password
   reset_pass: Email sent with password reset instructions
   reset_success: Password has been reset.
+  mail_error: Sorry , We can't sent email now !!! Try later .
+  user:
+    my_profile: view my profile
+    all_user: All User
+  micropost:
+    one: micropost
+    other: "%{count} microposts"
+  forgot_pass : Forgot password
+  reset_pass : Reset password
+  update_pass: Update password
+  reset_pass: Email sent with password reset instructions
   not_found_email: Email address not found
   submit: Submit
   base_title: Ruby on Rails Tutorial Sample App
@@ -76,7 +87,6 @@ en:
   update_success: Profile updated
   update_failed: Can't update user profile!!!
   please_login: Please log in.
-  all_user: All User
   delete_success: User deleted
   delete_failed: Can't delete user!
   signup_now: Sign up now!
@@ -84,6 +94,18 @@ en:
   cofirm_pass: Confirmation
   not_found_user: User does not exist!!!
   login_error: Invalid email/password combination
+  micropost_post: Posted %{time} ago.
+  micropost_count: Microposts %{count}
+  create_micropost: Compose new micropost...
+  micropost_feed: Micropost Feed
+  micropost_delete: Micropost deleted
+  mircopost_delete_failed: Micropost deleted failed
+  micropost_not_exit: Micropost does't exit
+  image_format: Must be a valid image format
+  maximum_size: Should be less than 5 MB
+  micropost_create: Micropost created!
+  create_micropost_failed: Create micro failed
+  post: Post
   footer:
     content : The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
               by <a href="https://www.michaelhartl.com/">Michael Hartl</a>
