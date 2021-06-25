@@ -29,12 +29,27 @@ en:
     active: Activate
     content: Welcome to the Sample App! Click on the link below to activate your account
     error: Can't sent mail, Try later !!!
+    first: Password reset
+    second: "To reset your password click the link below:"
+    third: This link will expire in two hours.
+    end: If you did not request your password to be reset, please ignore this email and
+         your password will stay as it is.
   users:
     create:
       notice:
   account: Account
-  english: English
-  vietnam: Vietnamese
+  english: En
+  vietnam: Vi
+  error_reset: Password has been reset before
+  pass_expired: Password reset has expired.
+  not_empty: password can't be empty
+  forgot_pass : Forgot password
+  reset_password : Reset password
+  update_pass: Update password
+  reset_pass: Email sent with password reset instructions
+  reset_success: Password has been reset.
+  not_found_email: Email address not found
+  submit: Submit
   base_title: Ruby on Rails Tutorial Sample App
   remember: Remember me on this computer
   image_link: https://gravatar.com/emails
@@ -72,4 +87,4 @@ en:
   footer:
     content : The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
               by <a href="https://www.michaelhartl.com/">Michael Hartl</a>
-  languge: Language
+  language: Language
