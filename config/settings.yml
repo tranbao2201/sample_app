@@ -2,3 +2,5 @@ user:
   max_name : 50
   max_email: 255
   min_pass: 6
+  per_page : 20
+size : 50

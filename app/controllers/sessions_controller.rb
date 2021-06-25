@@ -3,10 +3,10 @@ class SessionsController < ApplicationController
   def new; end
 
   def create
-    if @user&.authenticated? params[:session][:password]
+    if @user&.authenticate params[:session][:password]
       log_in @user
-      params[:session][:remember_me] == "1" ? remember(@user) : forger(@user)
-      redirect_to @user
+      params[:session][:remember_me] == "1" ? remember(@user) : forget(@user)
+      redirect_back_or root_url
     else
       flash.now[:danger] = t "login_error"
       render :new
