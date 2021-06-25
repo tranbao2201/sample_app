@@ -49,4 +49,12 @@ module SessionsHelper
   def store_location
     session[:forwarding_url] = request.original_url if request.get?
   end
+
+  def logged_in_user
+    return if logged_in?
+
+    store_location
+    flash[:danger] = t "please_login"
+    redirect_to login_url
+  end
 end

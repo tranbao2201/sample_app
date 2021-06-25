@@ -1,5 +1,12 @@
 class StaticPagesController < ApplicationController
-  def home; end
+  def home
+    return unless logged_in?
+
+    @micropost = current_user.microposts.build
+    @feed_items = Kaminari.paginate_array(Micropost.feed(current_user.id)
+                          .sort_desc_by_time).page(params[:page])
+                          .per(Settings.micropost.page)
+  end
 
   def help; end
 
