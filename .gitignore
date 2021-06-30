@@ -47,3 +47,7 @@ config/credentials.yml.enc
 config/database.yml
 test/
 Guardfile
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
