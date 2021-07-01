@@ -53,6 +53,7 @@ en:
              <a href="https://www.railstutorial.org/contact">contact page</a>.
     signup: This will be a signup page for new users.
   base_title: Ruby on Rails Tutorial Sample App
+  app: sample app
   home: Home
   help: Help
   about: About
@@ -60,6 +61,9 @@ en:
   new: News
   loggin : Log in
   signup_now: Sign up now!
+  cre_account: Create my account
+  cofirm_pass: Confirmation
+  not_found_user: User does not exist!!!
   footer:
     content : The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
               by <a href="https://www.michaelhartl.com/">Michael Hartl</a>
