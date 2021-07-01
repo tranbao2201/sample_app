@@ -52,6 +52,9 @@ en:
     contact: Contact the Ruby on Rails Tutorial about the sample app at the
              <a href="https://www.railstutorial.org/contact">contact page</a>.
     signup: This will be a signup page for new users.
+  error:
+    one: The form contains  1 error
+    other: "The form contains %{count} errors"
   base_title: Ruby on Rails Tutorial Sample App
   app: sample app
   home: Home
@@ -59,11 +62,16 @@ en:
   about: About
   contact: Contact
   new: News
-  loggin : Log in
+  login : Log in
+  logout: Log out
+  profile: Profile
+  setting: Settings
+  user: Users
   signup_now: Sign up now!
   cre_account: Create my account
   cofirm_pass: Confirmation
   not_found_user: User does not exist!!!
+  login_error: Invalid email/password combination
   footer:
     content : The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
               by <a href="https://www.michaelhartl.com/">Michael Hartl</a>
