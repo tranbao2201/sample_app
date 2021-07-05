@@ -5,6 +5,7 @@ en:
     about: About
     signup: Sign up
     contact: Contact
+    update: Update your profile
   content_page:
     home: This is the home page for the <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
             sample application.
@@ -26,6 +27,7 @@ en:
     other: "The form contains %{count} errors"
   base_title: Ruby on Rails Tutorial Sample App
   remember: Remember me on this computer
+  image_link: https://gravatar.com/emails
   app: sample app
   home: Home
   help: Help
@@ -34,10 +36,20 @@ en:
   new: News
   login : Log in
   logout: Log out
+  delete: Delete
+  sure: Are you sure?
+  save: Save changes
   profile: Profile
   setting: Settings
   user: Users
   new_user: New user?
+  edit_user: Edit user
+  update_success: Profile updated
+  update_failed: Can't update user profile!!!
+  please_login: Please log in.
+  all_user: All User
+  delete_success: User deleted
+  delete_failed: Can't delete user!
   signup_now: Sign up now!
   cre_account: Create my account
   cofirm_pass: Confirmation
