@@ -12,6 +12,9 @@ module SampleApp
     config.load_defaults 6.1
     Bundler.require(*Rails.groups)
     Config::Integrations::Rails::Railtie.preload
+    config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}')]
+    config.i18n.available_locales = [:en, :vi]
+    config.i18n.default_locale = :en
     # Force all access to the app over SSL, use Strict-Transport-Security,
     # and use secure cookies.
     # Configuration for the application, engines, and railties goes here.

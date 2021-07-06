@@ -1,0 +1,85 @@
+vi:
+  vi:
+  date:
+    formats:
+      default: "%d/%m/%Y"
+      long: "Ngày %d tháng %m năm %Y"
+      short: "%d/%m"
+  time:
+    formats:
+      default: "%H:%M:%S %d/%m/%Y"
+      long: "Ngày %d tháng %m năm %Y, %H:%M:%S"
+      short: "%d/%m/%Y %H:%M"
+  welcome:
+    home: Chào mừng bạn đến với Sample App
+    help: Trợ giúp
+    about: Về tôi
+    signup: Đăng ký
+    contact: Liên hệ
+    update: Cập nhật thông tin
+  content_page:
+    home: Đây là trang chủ của <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+            trang web mẫu.
+    about: Sách <a href="https://www.railstutorial.org/"><em>Ruby on Rails
+            Tutorial</em></a>, là một trong bộ <a
+            href="https://www.learnenough.com/">Learn Enough</a> tutorials, là <a
+            href="https://www.railstutorial.org/book">sách</a> và <a
+            href="https://screencasts.railstutorial.org/">bộ screencast</a> hướng dẫn lập
+            trình web với <a href="https://rubyonrails.org/">Ruby on Rails</a>. Đây là ví
+            dụ trong sách tutorial.
+    help: Tìm hiểu thêm về Ruby on Rails tại <a
+          href="https://www.railstutorial.org/help">Rails Tutorial Help page</a>. Để
+          tìm hiểu thêm về ví dụ này, xem thêm sách <a
+          href="https://www.railstutorial.org/book"> <em>Ruby on Rails
+    contact: Liên hệ với tác giả của Ruby on Rails Tutorial về trang web này tại
+             <a href="https://www.railstutorial.org/contact"> trang liên hệ</a>
+    signup: Đây sẽ là trang đăng ký cho người dùng mới.
+  error:
+    one: Thông tin bạn nhập có  1 lỗi
+    other: "Thông tin bạn nhập có %{count} lỗi"
+  mail:
+    active: Kích hoạt
+    content: Chào mừng tới Sample App! Click vào bên để kích hoạt tài khoản
+    error: Không thể gửi mail, thử lại !!!
+  users:
+    create:
+      notice:
+  account: Tài khoản
+  base_title: Ruby on Rails Tutorial Sample App
+  remember: Ghi nhớ đăng nhập
+  image_link: https://gravatar.com/emails
+  active_account: Vui lòng kiểm trai email để kích hoạt tài khoản.
+  active_success: Tài khoản đã kích hoạt!
+  avtive_failed: Liên kết hoạt động lỗi
+  message: Tài khoản chưa được kích hoạt. Hãy kiểm tra email của bạn để biết liên kết kích hoạt
+  app: Sample App
+  home: Trang chủ
+  help: Trợ giúp
+  about: Chúng tôi
+  contact: Liên hệ
+  new: Tạo mới
+  login : Đăng nhập
+  logout: Đăng xuất
+  delete: "| Xóa"
+  sure: Bạn chắc chứ?
+  save: Lưu thay đổi
+  profile: Hồ sơ
+  setting: Cài đặt
+  user: Người dùng
+  new_user: Tạo mới người dùng?
+  edit_user: Chỉnh sửa người dùng
+  update_success: Hồ sơ đã cập nhật
+  update_failed: Không thể cập nhật hồ sơ!!!
+  please_login: Vui lòng đăng nhập để thực hiện
+  all_user: Tất cả ngươi dùng
+  delete_success: Ngươi dùng đã xóa
+  delete_failed: Không thể xóa người dùng
+  signup_now: Đăng ký ngay!
+  cre_account: Tạo một tài khoản
+  cofirm_pass: Xác nhận mật khẩu
+  not_found_user: Người dùng không tồn tại!!!
+  login_error: Sai mật khẩu hoặc tài khoản
+  footer:
+    content: Trang <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+              bởi <a href="https://www.michaelhartl.com/">Michael Hartl</a>
+  language: Ngôn ngữ

@@ -2,7 +2,7 @@
   <%= gravatar_for user, size: Settings.size %>
   <%= link_to user.name, user %>
   <% if show_delete_button user %>
-  | <%= link_to t("delete"), user, method: :delete,
+    <%= link_to t("delete"), user, method: :delete,
                                    data: { confirm: t("sure") } %>
   <% end %>
 </li>

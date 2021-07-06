@@ -25,10 +25,24 @@ en:
   error:
     one: The form contains  1 error
     other: "The form contains %{count} errors"
+  mail:
+    active: Activate
+    content: Welcome to the Sample App! Click on the link below to activate your account
+    error: Can't sent mail, Try later !!!
+  users:
+    create:
+      notice:
+  account: Account
+  english: English
+  vietnam: Vietnamese
   base_title: Ruby on Rails Tutorial Sample App
   remember: Remember me on this computer
   image_link: https://gravatar.com/emails
-  app: sample app
+  active_account: Please check your email to activate your account.
+  active_success: Account activated!
+  avtive_failed: Invalid activation link
+  message: Account not activated.Check your email for the activation link.
+  app: Sample App
   home: Home
   help: Help
   about: About
@@ -36,7 +50,7 @@ en:
   new: News
   login : Log in
   logout: Log out
-  delete: Delete
+  delete: "| Delete"
   sure: Are you sure?
   save: Save changes
   profile: Profile
@@ -58,3 +72,4 @@ en:
   footer:
     content : The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
               by <a href="https://www.michaelhartl.com/">Michael Hartl</a>
+  languge: Language
