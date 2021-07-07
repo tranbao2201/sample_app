@@ -1,5 +1,4 @@
 vi:
-  vi:
   date:
     formats:
       default: "%d/%m/%Y"
@@ -41,10 +40,28 @@ vi:
     active: Kích hoạt
     content: Chào mừng tới Sample App! Click vào bên để kích hoạt tài khoản
     error: Không thể gửi mail, thử lại !!!
+    first: Đặt lại mật khẩu
+    second: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+    third: Liên kết này sẽ hết hạn sau hai giờ.
+    end: Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua
+         email này và mật khẩu của bạn sẽ được giữ nguyên.
   users:
     create:
       notice:
+  english: En
+  vietnam: Vi
   account: Tài khoản
+  error_reset: "Mật khẩu đã đặt lại trước đó"
+  pass_expired: "Đường link đã quá hạn"
+  not_empty: Mật khẩu không được để rỗng
+  reset_success: Mật khẩu đã được đặt lại.
+  forgot_pass : Quên mật khẩu
+  reset_password : Đặt lại mật khẩu
+  update_pass: Câp nhật mật khẩu
+  reset_pass: Email được gửi kèm theo hướng dẫn đặt lại mật khẩu
+  reset_success: Mật khẩu đã được đặt lại
+  not_found_email: Không tìm thấy Email
+  submit: Gửi
   base_title: Ruby on Rails Tutorial Sample App
   remember: Ghi nhớ đăng nhập
   image_link: https://gravatar.com/emails
