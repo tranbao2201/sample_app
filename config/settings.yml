@@ -3,4 +3,8 @@ user:
   max_email: 255
   min_pass: 6
   per_page : 20
+micropost:
+  content:
+    max: 140
+  page: 10
 size : 50
