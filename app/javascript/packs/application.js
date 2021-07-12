@@ -9,7 +9,12 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 require("jquery")
 import "bootstrap"
-require("packs/image_error")
+//= require i18n
+//= require i18n.js
+//= require i18n/translations
+
+window.jQuery = $;
+window.$ = $;
 //= require i18n
 //= require i18n.js
 //= require i18n/translations

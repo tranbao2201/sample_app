@@ -3,7 +3,7 @@ class StaticPagesController < ApplicationController
     return unless logged_in?
 
     @micropost = current_user.microposts.build
-    @feed_items = Kaminari.paginate_array(Micropost.feed(current_user.id)
+    @feed_items = Kaminari.paginate_array(Micropost.list_new_micropost(list_id)
                           .sort_desc_by_time).page(params[:page])
                           .per(Settings.micropost.page)
   end
@@ -13,4 +13,11 @@ class StaticPagesController < ApplicationController
   def about; end
 
   def contact; end
+
+  private
+
+  def list_id
+    Relationship.list_followed_id(current_user.id)
+                .pluck(:followed_id).push(current_user.id)
+  end
 end
